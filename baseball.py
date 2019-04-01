@@ -14,19 +14,21 @@ def baseball():
 	strikes = ""
 	outs = ""
 	innings = ""
+	score1 = ""
+	score2 = ""
 
 dictionary = {
 
-"1,1" : "double - 2",
-"1,2" : "single - 1",
-"1,3" : "single - 1",
-"1,4" : "single -1",
-"1,5" : "base on error - 1",
-"1,6" : "base on balls -1",
-"2,2" : "strike - 1",
-"2,3" : "strike - 1",
-"2,4" : "strike - 1",
-"2,5" : "strike - 1",
+"1,1" : "double ",
+"1,2" : "single ",
+"1,3" : "single ",
+"1,4" : "single ",
+"1,5" : "base on error ",
+"1,6" : "base on balls ",
+"2,2" : "strike ",
+"2,3" : "strike ",
+"2,4" : "strike ",
+"2,5" : "strike ",
 "2,6" : "foul out", 
 "3,3" : "out at 1st",
 "3,4" : "out at 1st",
@@ -42,18 +44,10 @@ dictionary = {
 }
 
 numbers = ['1,1','1,2','1,3','1,4','1,5','1,6','2,2','2,3','2,4','2,5','2,6','3,3','3,4','3,5','3,6','4,4','4,5','4,6','5,5','5,6','6,6']
-
 r = random.choice(numbers)
 print(r)
-
 step = dictionary[r]
 print(step)
-
-
-
-
-
-
 
 """
 #test to determine dice rolls using random 
