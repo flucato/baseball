@@ -2,7 +2,7 @@
 title: baseball.py.
 
 description:
-author:
+author: Frank Lucato.
 date:
 url:
 notes:
@@ -13,30 +13,29 @@ notes:
 from random import choice
 
 
-def baseball():
-    """Baseball.
+def pitch():
+    """Pitch.
 
-    description: yahtzee into baseball via python.
+    description: Get random and extracts action from list.
     arguments:
     returns:
 
     """
-    """
+    
     die_1 = ""
-    DIE_2 = ""
-    SCORE_1 = ""
-    SCORE_2 = ""
-    FOULS = ""
-    BASE_1 = ""
-    BASE_2 = ""
-    BASE_3 = ""
-    STRIKES = ""
-    OUTS = ""
-    INNINGS = ""
-    SCORE1 = ""
-    SCORE2 = ""
+    die_2 = ""
+    score_1 = ""
+    score_2 = ""
+    fouls = ""
+    base_1 = ""
+    base_2 = ""
+    base_3 = ""
+    strikes = ""
+    outs = ""
+    innings = ""
+    
 
-    """
+    
 
     DICTIONARY = {
         "1,1": "double ",
@@ -90,6 +89,24 @@ def baseball():
     STEP = DICTIONARY[RAN]
     print(STEP)
 
+'''
+def Run():
+    """Run.
+
+    description: Takes values for evaluation from Pitch().
+    arguments:
+    returns:
+
+    """
+'''
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
-    baseball()
+    pitch()
